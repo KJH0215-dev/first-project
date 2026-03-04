@@ -53,6 +53,7 @@ while True:
             return percent
         result = 몰_퍼센트_변환(molarity, molarmass, density)
         print(f"percent={result:.3f}%")
+
     elif choice == "6":
         density = float(input("밀도를 넣어주세요:"))
         molality = float(input("몰랄농도를 넣어주세요:"))
@@ -64,3 +65,4 @@ while True:
     elif choice == "0":
         print("계산기를 종료합니다")
         break
+
