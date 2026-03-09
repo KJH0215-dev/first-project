@@ -23,7 +23,7 @@ while True:
             volume_2 = (concentration_1*volume_1)/(concentration_2)
             return volume_2
         result = 희석계산기_부피(concentration_1, volume_1, concentration_2)
-        print(f"변화 부피={result:.3f}M")
+        print(f"변화 부피={result:.3f}L")
     elif choice == "0":
         print("계산을 종료합니다.")
         break
